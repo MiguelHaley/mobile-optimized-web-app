@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Events from "./pages/Events";
-import EventDetail from "./pages/EventDetail";
+import Navbar from "../components/Navbar";
+import Home from "../pages/Home";
+import Events from "../pages/Events";
+import EventDetail from "../pages/EventDetail";
 
 export default function App() {
   return (
