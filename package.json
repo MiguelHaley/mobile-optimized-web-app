@@ -1,0 +1,32 @@
+{
+  "name": "mobile-optimized-web-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Mobile-first responsive web application built with React and Vite",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelHaley/mobile-optimized-web-app.git"
+  },
+  "keywords": ["react", "vite", "responsive", "mobile-first"],
+  "author": "Miguel Haley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelHaley/mobile-optimized-web-app/issues"
+  },
+  "homepage": "https://github.com/MiguelHaley/mobile-optimized-web-app#readme",
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-router-dom": "^6.22.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.4",
+    "vite": "^7.3.1"
+  }
+}

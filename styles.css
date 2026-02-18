@@ -1,0 +1,108 @@
+/* MOBILE FIRST (≤480px default) */
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+.container {
+  padding: 1rem;
+}
+
+/* NAVIGATION */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #004080;
+  color: white;
+  padding: 1rem;
+}
+
+.nav-links {
+  display: none;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.nav-links.open {
+  display: flex;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.hamburger {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+}
+
+/* GRID LAYOUT */
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.5rem;
+  text-decoration: none;
+  background: #004080;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.secondary {
+  background: #777;
+}
+
+.search {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* MEDIUM (481px–900px) */
+@media (min-width: 481px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* LARGE (≥901px) */
+@media (min-width: 901px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .nav-links {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}

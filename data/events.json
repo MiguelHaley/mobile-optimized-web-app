@@ -1,0 +1,10 @@
+[
+  { "id": 1, "title": "Career Fair", "date": "March 12, 2026", "location": "Student Center", "category": "Career", "description": "Meet top employers hiring students." },
+  { "id": 2, "title": "Basketball Game", "date": "March 15, 2026", "location": "Campus Arena", "category": "Sports", "description": "Cheer for our home team!" },
+  { "id": 3, "title": "Coding Workshop", "date": "March 18, 2026", "location": "Tech Lab", "category": "Education", "description": "Hands-on React training session." },
+  { "id": 4, "title": "Spring Concert", "date": "March 20, 2026", "location": "Main Quad", "category": "Entertainment", "description": "Live music from student bands." },
+  { "id": 5, "title": "Health Expo", "date": "March 22, 2026", "location": "Wellness Center", "category": "Health", "description": "Free health screenings." },
+  { "id": 6, "title": "Art Exhibition", "date": "March 25, 2026", "location": "Art Hall", "category": "Art", "description": "Student artwork showcase." },
+  { "id": 7, "title": "Hackathon", "date": "March 28, 2026", "location": "Innovation Hub", "category": "Technology", "description": "24-hour coding challenge." },
+  { "id": 8, "title": "Networking Night", "date": "March 30, 2026", "location": "Business Building", "category": "Career", "description": "Connect with alumni professionals." }
+]
